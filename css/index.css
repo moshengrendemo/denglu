@@ -1,0 +1,73 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	background: #eff0f4;
+}
+/*li{
+list-style: none;
+}*/
+.header{
+	height: 3.75rem;
+	color: #fff;
+    background:#5fc0cd;
+    line-height: 3.75rem;
+    text-align: center;
+
+
+}
+
+.left{
+
+	float: left;
+	margin-left: 1.875rem;
+
+}
+.center{
+  position: absolute;
+  left: 48%;
+width: 33%；
+}
+.right{
+
+	    float: right;
+	    margin-right: 1.875rem;
+}
+.form,.pass1{
+	margin-top:0.625rem;	/*10px*/
+}
+
+.login{
+	margin-top: 3.75rem;	/*60px*/
+}
+.name1,.pass1,.login{
+	border: 0;
+	display: block;
+	height: 6.25rem;
+	width: 100%;
+}
+.name1{
+	background: url("../img/phone1.png") no-repeat 28px 20px;
+	padding-left: 130px;
+}
+.pass1{
+	background: url("../img/password1.png") no-repeat 28px 20px;
+	padding-left: 130px;
+}
+.name1,.pass1{
+	background-color: #fff;
+}
+.login{
+	background: #5fc0cd;
+	color: #fff;
+	letter-spacing: 1rem;/*16px*/
+}
+.login,.txt{
+	font-size: 1.875rem;/*30px*/
+}
+.txt{
+	float: right;
+	color: #5fc0cd;
+	margin-right: 1.875rem;	/*30px*/
+	margin-top:1rem; 
+}
